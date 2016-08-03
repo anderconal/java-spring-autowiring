@@ -9,20 +9,25 @@
 		class="es.anderconal.modelo.Registrador">
 	</bean>
 	
-	<bean id="escritorArchivo"
+	<bean 
+		id="escritorArchivo"
 		class="es.anderconal.modelo.EscritorArchivo">
 	</bean>
 	
-	<bean id="prueba" class="es.anderconal.modelo.EscritorArchivo"
+	<bean 
+		id="prueba" class="es.anderconal.modelo.EscritorArchivo"
 		autowire-candidate="false">
 	</bean>
 
-	<bean id="escritorConsola"
+	<bean 
+		id="escritorConsola"
 		class="es.anderconal.modelo.EscritorConsola" 
 		primary="true">
 	</bean>
 
-	<bean id="pruebaConsola"
+	<bean 
+		id="pruebaConsola"
 		class="es.anderconal.modelo.EscritorConsola">
 	</bean>
+	
 </beans>
