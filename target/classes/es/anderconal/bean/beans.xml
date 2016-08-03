@@ -7,12 +7,13 @@
 	<bean 
 		id="registrador" 
 		class="es.anderconal.modelo.Registrador"
-		autowire="byName">
+		autowire="constructor">
 	</bean>
 	
 	<bean id="escritorArchivo"
 		class="es.anderconal.modelo.EscritorArchivo">
 	</bean>
+	
 	<bean id="escritorConsola"
 		class="es.anderconal.modelo.EscritorConsola">
 	</bean>

@@ -4,6 +4,11 @@ public class Registrador {
 	private EscritorRegistro escritorConsola;
 	private EscritorRegistro escritorArchivo;
 	
+	public Registrador(EscritorConsola escritorConsola, EscritorArchivo escritorArchivo) {
+		this.escritorConsola = escritorConsola;
+		this.escritorArchivo = escritorArchivo;
+	}
+	
 	public void setEscritorConsola(EscritorRegistro escritor) {
 		this.escritorConsola = escritor;
 	}
