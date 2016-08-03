@@ -7,7 +7,7 @@
 	<bean 
 		id="registrador" 
 		class="es.anderconal.modelo.Registrador"
-		autowire="byType">
+		autowire="byName">
 	</bean>
 	
 	<bean id="escritorArchivo"

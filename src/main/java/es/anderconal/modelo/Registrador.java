@@ -1,15 +1,15 @@
 package es.anderconal.modelo;
 
 public class Registrador {
-	private EscritorArchivo escritorArchivo;
-	private EscritorConsola escritorConsola;
+	private EscritorRegistro escritorConsola;
+	private EscritorRegistro escritorArchivo;
 	
-	public void setEscritorArchivo(EscritorArchivo escritorArchivo) {
-		this.escritorArchivo = escritorArchivo;
+	public void setEscritorConsola(EscritorRegistro escritor) {
+		this.escritorConsola = escritor;
 	}
 	
-	public void setEscritorConsola(EscritorConsola escritorConsola) {
-		this.escritorConsola = escritorConsola;
+	public void setEscritorArchivo(EscritorRegistro escritorDeArchivo) {
+		this.escritorArchivo = escritorDeArchivo;
 	}
 	
 	public void escribirArchivo(String texto) {

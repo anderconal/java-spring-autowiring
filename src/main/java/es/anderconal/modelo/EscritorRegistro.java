@@ -1,5 +1,6 @@
 package es.anderconal.modelo;
 
-public class EscritorRegistro {
-
+public interface EscritorRegistro {
+	public void escribir(String text);
 }
+
